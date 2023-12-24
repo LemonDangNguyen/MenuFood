@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pf"
+    android:orientation="vertical"
+    tools:context=".center.Ua_Thich">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackuathich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cá Nhân"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginRight="60dp">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập"
+        android:textColor="#A4A197"
+        android:textSize="18sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="45dp"/>
+
+    <EditText
+        android:id="@+id/username123"
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:textColor="#A4A197"
+        android:layout_marginLeft="45dp"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

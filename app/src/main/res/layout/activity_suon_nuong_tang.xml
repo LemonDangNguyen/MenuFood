@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.Suon_nuong_tang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackthc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <CheckBox
+            android:id="@+id/btnyeuthich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:checked="false"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/ic_like"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="587dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/suon1" />
+        <!--txt com-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Sườn nướng tảng"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:drawableLeft="@drawable/time"
+                android:drawableRight="@drawable/star"
+                android:gravity="center"
+                android:text=" 30 phút   4.9"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Nguyên liệu"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="\u2022  800g sườn non nguyên tảng
+\n\u2022 Gia vị: Đường cát vàng, muối, bột ngọt, bột tỏi, bột nghệ, bột ớt, tiêu xay, ngũ vị hương, dầu hào, tương ớt xí muội, xốt ướp thịt nướng.
+    "
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Cách làm"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="263dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="\u2022 Sườn sau khi mua về bạn rửa sạch với nước muối loãng, sau đó rửa lại với nước sạch rồi để ráo.
+\n\u2022 Đầu tiên, bạn cho 2 muỗng canh đường cát vàng, 1 muỗng canh muối, 1 muỗng canh bột ngọt, ½ muỗng canh bột tỏi, ½ muỗng canh bột nghệ, ½ muỗng canh bột ớt, 1 muỗng cà phê tiêu xay và 1 muỗng cà phê ngũ vị hương vào chén riêng. Sau đó bạn trộn đều hỗn hợp.
+\n\u2022 Đầu tiên, bạn cần làm nóng lò nướng ở 180 độ C trong khoảng 10 phút. Sau đó, bạn dùng giấy bạc bọc kín sườn rồi cho vào lò nướng tầm 50 phút.
+\n\u2022 Tiếp đến bạn cho sườn vào lại lò nướng và nướng trong 15 phút ở 250 độ C.
+\n\u2022 Sau khi nướng lần 2, bạn lấy sườn ra khỏi lò, gỡ giấy bạc ra và phết gia vị lên mặt còn lại của sườn rồi bọc giấy bạc lại sau đó cho vào lò nướng ở nhiệt độ 250 độ C trong khoảng 15 phút..
+   "
+
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+        <activity
+            android:name=".center.register"
+            android:exported="false" />
+        <activity
+            android:name=".center.Cococ"
+            android:exported="false" />
+        <activity
+            android:name=".center.HienThiMonAn"
+            android:exported="false" />
+        <activity
+            android:name=".center.Main_Tim_Kiem"
+            android:exported="false" />
+        <activity
+            android:name=".center.Bap_rang_bo"
+            android:exported="false" />
+        <activity
+            android:name=".center.Rau_salad"
+            android:exported="false" />
+        <activity
+            android:name=".center.Khoai_tay_chien"
+            android:exported="false" />
+        <activity
+            android:name=".center.Nuoc_Dau"
+            android:exported="false" />
+        <activity
+            android:name=".center.My_Trung"
+            android:exported="false" />
+        <activity
+            android:name=".center.Suon_nuong_tang"
+            android:exported="false" />
+        <activity
+            android:name=".center.Banh_Xeo"
+            android:exported="false" />
+        <activity
+            android:name=".center.CanhKimChi"
+            android:exported="false" />
+        <activity
+            android:name=".center.Com_Thap_Cam"
+            android:exported="false" />
+        <activity
+            android:name=".center.Thong_Bao"
+            android:exported="false" />
+        <activity
+            android:name=".center.Ua_Thich"
+            android:exported="false" />
+        <activity
+            android:name=".center.Tim_kiem"
+            android:exported="false" />
+        <activity
+            android:name=".center.Dac_San_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Lau_Nuong_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.An_vat_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Healthy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Fast_food_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Do_Uong_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Bun_Pho_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.Com_activity"
+            android:exported="false" />
+        <activity
+            android:name=".center.khampha"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".center.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

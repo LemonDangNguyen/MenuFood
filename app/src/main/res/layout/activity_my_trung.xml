@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.My_Trung">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackthc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <CheckBox
+            android:id="@+id/btnyeuthich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:checked="false"
+
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/ic_like"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mi1" />
+        <!--txt com-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Mì trứng"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="160dp"
+                android:drawableLeft="@drawable/time"
+                android:drawableRight="@drawable/star"
+                android:gravity="center"
+                android:text=" 30 phút   4.9"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Nguyên liệu"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="\u2022  Mì tôm 1 gói
+\n\u2022 Tôm 3 con
+\n\u2022  Trứng gà 1 quả
+\n\u2022  Dầu ớt 1 muỗng cà phê
+\n\u2022  Hành lá 1 í
+\n\u2022  Ớt bột 1 ít
+"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Cách làm"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="223dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="\u2022 Tôm bạn rửa thật sạch với nước rồi cẩn thận lột bỏ phần vỏ tôm.200gr kim chi cắt thành từng khúc nhỏ dài khoảng ngón tay cái, phần nước kim chi bạn giữ lại cho vào bát riêng nhé!
+\n\u2022 Bắc nồi lên bếp, cho vào khoảng 200ml nước, đổ gói rau củ khô nằm trong gói mì vào. Thả mì vào luộc trong khoảng 3 phút rồi cho cho gói gia vị vào.
+\n\u2022 Dùng nĩa từ từ làm tơi phần mì này ra, cho 3 con tôm, cẩn thận đập 1 quả trứng gà và thêm 1 muỗng cà phê dầu ớt. Đậy nắp lai và nấu thêm 2 phút nữa thì tắt bếp.
+\n\u2022 Gắp mì tôm và topping cho vào chén rồi rưới nước mì vào. Cẩn thận cho đặt trứng lên trên cùng, trộn đều và thưởng thức nhé!
+"
+
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

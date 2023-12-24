@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.Banh_Xeo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackthc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <CheckBox
+            android:id="@+id/btnyeuthich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:checked="false"
+
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/ic_like"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/banhxeo1" />
+        <!--txt com-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Bánh xèo"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="147dp"
+                android:gravity="center"
+                android:text=" 30 phút   4.9"
+                android:drawableLeft="@drawable/time"
+                android:drawableRight="@drawable/star"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyên liệu"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:text="\u2022  200gr bột gạo khô
+\n\u2022 10gr bột nghệ
+\n\u2022  200gr thịt lợn
+\n\u2022  200gr tôm
+\n\u2022  100gr giá đỗ
+\n\u2022  Rau sống ăn bánh xèo các loại
+\n\u2022  Gia vị: muối, đường, tiêu, hành tím, gừng, hành lá
+"/>
+
+
+
+        <TextView
+            android:layout_marginBottom="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cách làm"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+
+            android:text="\u2022 Để pha bột làm bánh xèo, bạn trộn 200gr bột gạo, 10gr bột nghệ, 250ml nước lọc, 100ml bia, 1 muỗng cà phê muối với hành lá băm lại, khuấy bột cho thật đều tay để bột tan hết.200gr kim chi cắt thành từng khúc nhỏ dài khoảng ngón tay cái, phần nước kim chi bạn giữ lại cho vào bát riêng nhé!
+\n\n\u2022 Bắc chảo lên bếp và cho vào một lớp dầu mỏng. Sau khi dầu nóng, bạn múc muỗng canh bột vừa và tráng đều chảo.
+\n\n\u2022 Sau đó, cho thêm một ít nhân và giá vào. Để lửa nhỏ, đợi khoảng 2 phút cho vỏ bánh khô giòn rồi bạn gấp đôi bánh lại hong thêm một chút và để bánh ra dĩa.
+    "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

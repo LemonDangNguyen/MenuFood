@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Good Taste</string>
+    <string name="actionseach">Seach</string>
+    <string name="login"><u>Bạn chưa có tài khoản</u>.</string>
+    <string name="register"><u>Bạn đã có tài khoản</u>.</string>
+
+</resources>

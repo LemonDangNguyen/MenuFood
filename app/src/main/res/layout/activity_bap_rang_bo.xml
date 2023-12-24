@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.Bap_rang_bo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackthc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <CheckBox
+            android:id="@+id/btnyeuthich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:checked="false"
+
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/ic_like"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bongngo1" />
+        <!--txt com-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Bắp rang bơ"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:drawableLeft="@drawable/time"
+                android:drawableRight="@drawable/star"
+                android:gravity="center"
+                android:text=" 30 phút   4.9"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Nguyên liệu"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="\u2022  Hạt bắp khô 200 gr
+\n\u2022 Đường cát trắng 200 gr
+\n\u2022  Bơ nhạt 100 gr
+\n\u2022  Dầu ăn 2 muỗng canh
+\n\u2022  Nước lọc 100 ml
+"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Cách làm"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="264dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="\u2022 Cho 3 muỗng canh dầu thực vật vào nồi.
+\n\u2022 Vặn lửa vừa và thả hai hạt bắp vào nồi để thử độ nóng. Khi những hạt bắp bắt đầu bung lên, dầu đủ nóng thì thêm phần bắp còn lại.
+\n\u2022 Thêm số lượng hạt gợi ý trên túi vào chảo và đậy nắp lại. Nếu nắp nồi không có lỗ, hãy giữ cho nó hơi hé ra.
+\n\u2022 Nhẹ nhàng lắc chảo để giữ cho hạt bắp không bị cháy.
+\n\u2022 Khi bắp ngừng bung hạt, tắt bếp. Đợi một vài giây cho những hạt bắp cuối cùng bung ra, và sau đó tháo nắp ra để tránh hơi nước làm mềm hạt bắp.
+\n\u2022 Bắc nồi lên bếp, để lửa nhỏ rồi cho đường và khoảng 5ml nước vào khuấy đều. Đun cho đến khi đường tan chảy và chuyển dần sang màu nâu cánh gián.
+\n\u2022 Trút hết bỏng ngô vào nồi, đảo đều từ 3 - 4 phút để hạt bắp thấm hỗn hợp bơ – đường.
+"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

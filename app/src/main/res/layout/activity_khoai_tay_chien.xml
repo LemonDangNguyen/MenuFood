@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.Khoai_tay_chien">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbackthc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <CheckBox
+            android:id="@+id/btnyeuthich"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:button="@null"
+            android:checked="false"
+
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/ic_like"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:background="@drawable/khoai1" />
+        <!--txt com-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Khoai tây chiên"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:drawableLeft="@drawable/time"
+                android:drawableRight="@drawable/star"
+                android:gravity="center"
+                android:text=" 30 phút   4.9"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Nguyên liệu"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="\u2022  Khoai tây 4 củ
+\n\u2022 Bột phô mai 2 muỗng canh
+\n\u2022  Bột nghệ 1 muỗng cà phê
+\n\u2022  Muối 1 muỗng cà phê
+\n\u2022  Dầu ăn 1 ít
+"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Cách làm"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="223dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="\u2022 Khoai tây rửa sạch bụi bẩn, sau đó gọt bỏ vỏ và ngâm vào nước muối trong 10 phút. Tiếp theo, dùng dao hoặc dao bào cắt khoai tây thành những lát mỏng (cắt theo chiều ngang củ khoai tây).
+\n\u2022 Chuẩn bị 1 tô nước muối mới có pha thêm 1 muỗng cà phê bột nghệ. Sau đó, bạn cho phần khoai tây vừa gọt vào ngâm khoảng 30 phút để khoai ra hết tinh bột. Kế đến, tiếp tục ngâm khoai vào tô nước đá lạnh thêm 10 phút nữa.
+\n\u2022 Bắc chảo lên bếp, cho vào 1 ít dầu ăn vừa đủ ngập mặt khoai và đun nóng. Khi dầu đã nóng, bạn cho khoai vào chiên trên lửa vừa đến khi khoai vàng giòn. Tiếp đến, vớt khoai ra rổ để ráo dầu. Bạn có thể lắc khoai với bột phô mai để tăng thêm hương vị cho món ăn nhé!
+"
+
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

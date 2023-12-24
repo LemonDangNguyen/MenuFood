@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.Lau_Nuong_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnbacklaunuong"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnback">
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lẩu nướng"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginRight="60dp">
+        </TextView>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/view"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:alignmentMode="alignMargins"
+        android:background="@color/white"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:gravity="center"
+        android:padding="10dp"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/thitnuong69"/>
+
+        <Button
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/uyenuong"/>
+
+        <Button
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bonuong"/>
+
+        <Button
+            android:id="@+id/suonnuong"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/nuongtang"/>
+
+        <Button
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/laurau"/>
+
+        <Button
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/haisan"/>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

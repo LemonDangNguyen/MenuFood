@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".center.khampha">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khám phá"
+        android:textSize="27sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="140dp">
+    </TextView>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:background="@drawable/giamgia4"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/khampha"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp">
+    </ImageView>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:columnCount="4"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/com"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"
+            android:background="@drawable/food1"/>
+        <Button
+            android:id="@+id/bunpho"
+            android:background="@drawable/food2"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/douong"
+            android:background="@drawable/food3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/fastfood"
+            android:background="@drawable/food4"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/healthy"
+            android:background="@drawable/food5"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/anvat"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/food6"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/launuong"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/food7"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+        <Button
+            android:id="@+id/dacsan"
+            android:background="@drawable/food8"
+            android:layout_gravity="center"
+            android:layout_height="85dp"
+            android:layout_width="85dp"/>
+
+
+    </GridLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explore"
+            android:background="@drawable/explore"
+            android:layout_marginStart="30dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/search"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/notication"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/notication"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

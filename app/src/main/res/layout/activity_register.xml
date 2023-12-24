@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    android:orientation="vertical"
+    tools:context=".center.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập"
+        android:textColor="#A4A197"
+        android:textSize="18sp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="45dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:textColor="#A4A197"
+        android:textSize="18sp"
+        android:layout_marginLeft="45dp"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:inputType="textPassword"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận mật khẩu"
+        android:textColor="#A4A197"
+        android:textSize="18sp"
+        android:layout_marginLeft="45dp"/>
+
+    <EditText
+        android:id="@+id/passwordxn"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="#A4A197"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btndky"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edt"
+        android:backgroundTint="@color/black"
+        android:text="Đăng Ký"
+        android:textColor="#89AFCE"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+
+</LinearLayout>
